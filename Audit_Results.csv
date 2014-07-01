@@ -1,0 +1,31 @@
+Name,GA,Oral/Poster,Area 1,Strength Area 1,Area 2,Strength Area 2
+,,0 – Prof wants Oral, 1 – Student wants Oral, 2 – Student Kind of Wants Oral, 3 – Student has no preference, 4 – Student Kind of Wants Poster, 5 – Student wants poster, 6 – Prof wants poster,,0-2,,0-2
+Jason Becker,Alex,1,Sensing,2,Materials,1
+Adhit Ramamurthi,Alex,5,Health,1,Simulation,1
+Amanda Loveless,Alex,2,Simulation,2,Sensing,1
+Stefanus Winarto,Alex,3,Energy,2,Simulation,1
+Birkir Sigfusson,Alex,0,Simulation,1,Energy,1
+Yuchen Cui,Alex,0,Data Analytics,2,Health,0
+Renjun Zheng,Alex,2,Data Analytics,2,Transportation,0
+Justus Karenzi,Alex,5,Data Analytics,2,Earth and Space Sciences,1
+Nilofer Rajpurkar,Alex,1,Simulation,2,Materials,2
+Stuart Hilsmier,Alex,1,Materials,2,Energy,2
+Eric Lehmann,Alex,0,Sensing,2,Water,1
+Emily Gill,Alex,2,Materials,2,Biotechnology,1
+Tianyue Gao,Alex,5,Materials,2,Energy,1
+Woody Gilbertson,Alex,1,Nanotechnology,2,Materials,1
+Krystopher Jochem,Alex,5,Materials,2,Energy,2
+George Joseph,Alex,5,Materials,2,Energy,2
+Adi Banerjee,Alex,1,Nanotechnology,2,Biotechnology,2
+Xiaoqin Zhu,Alex,5,Nanotechnology,2,Materials,1
+James Tay,Alex,5,Data Analytics,2,Health,0
+Patrick Skrodski,Alex,3,Materials,1,Sensing,2
+Guarong Bai,Alex,5,Nanotechnology,2,Materials,1
+Nathan Boyle,Alex,4,Sensing,1,Materials,1
+Aashish Ghimire,Alex,3,Simulation,2,Nanotechnology,1
+Jeremy Binagia,Alex,3,Simulation,2,Health,2
+Haosheng Xu,Alex,1,Materials,2,Health,0
+Seth Bontrager,Alex,2,Data Analytics,2,Transportation,0
+Eric Acosta,Alex,3,Nanotechnology,2,Materials,2
+Quifei Hu,Alex,5,Energy,2,Sustainability,1
+Anya Heinemann,Alex,0,Energy,2,Sustainability,1
