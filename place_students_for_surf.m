@@ -1,3 +1,4 @@
+function place_students_for_surf(talksessions,talkspersession)
 clear; close all; clc;
 global students;
 %% Initialize variables.
@@ -120,10 +121,6 @@ waitfor(gcf);
 
 [studentsunplaced,newareas,areas] = placestudents(areas,newareas);
 
-%% CHANGE THIS!
-
-talkspersession = 3;
-
 %% Determine which tracks can have talks
 
 for i=1:numel(students)
@@ -136,10 +133,13 @@ for i=1:numel(students)
     end
 end
 
+talksessionsleft = talksessions;
+
 for j=1:numel(areas)
-    if areas(j).studentswantingtotalk >= talkspersession
+    if areas(j).studentswantingtotalk >= talkspersession && talksessionsleft > 0
         areas(j).talk=1;
         areas(j).talksleft=3;
+        talksessionsleft = talksessionsleft - 1;
     else
         areas(j).talk=0;
         areas(j).talksleft=0;
@@ -166,4 +166,5 @@ end
 
 strucdisp(students,-1,1,200,'studentwiseoutput.txt');
 
-strucdisp(areas,-1,1,100,'sectionwiseoutput.txt')
+strucdisp(areas,-1,1,100,'sectionwiseoutput.txt');
+end
